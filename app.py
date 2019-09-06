@@ -12,7 +12,7 @@ def index():
     
     #Genius API Authorization 
     my_headers = {
-    "Authorization": "Bearer IQdtZyfMUnXQ53F8b9e3y-jWqaNNNRXoVK-aUdbF1crCTkG7S_VCvMrMOD_Nm2FR"
+    "Authorization": "Bearer gMMP35gIwZgzN7zTtmwcgpE24HRHIMvzNOj7hhqIjxbYFbq89genbmdvo-4DZc5d"
     }
     
     #Chooses a random song
@@ -33,10 +33,10 @@ def index():
     
     #Authorization for the Twitter API
     oauth = requests_oauthlib.OAuth1(
-    "P9G9BJPDMdNWmitx3sn68UXm3", 
-    "EVTYPFAOVa4jgk9fkYMgTP6dpqwPhniUlht7dLtbORM7Yq9LPr",
+    "qBkUI9Od70x3S08iyliKXt2o0", 
+    "kjPdoRemvjUFwM5GmnRvpqgZSrmsRl0NnkRJGE7OGotzUhWj9d ",
     "1167117656073412608-vFF34UgaXtFhNDxuXhMceeTadWEL6H",
-    "90rgA5HLFb4SvWSHEr3q3oRKOnWzPpg4NfSVleWzctQcV"
+    "Qw61OwavaJ3UTSeE20xqhkZ0qqP4r1CsGVoXFa0idtBfV"
     )
 
     response = requests.get(twitt_url, auth=oauth)
