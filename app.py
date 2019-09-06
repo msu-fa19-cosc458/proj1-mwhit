@@ -26,7 +26,7 @@ def index():
     
     
     #Twitter API to search for tweets
-    twitt_url = "https://api.twitter.com/1.1/search/tweets.json?q=kehlani"
+    twitt_url = "https://api.twitter.com/1.1/search/tweets.json?q=kehlanimusic"
     
     #Retrieves a random tweet
     twitter_tweet = random.randint(0,14)
