@@ -3,12 +3,10 @@
 
 ##  Welcome to the world of Kehlani!!
 
-####  The theme/focus of this project is my favorite artist Kehlani. I started listening to music about 3 years ago, and Kehlani was the
-first artist that stuck. Her music has become such a huge part of my life, and I saw no better way to show that than by making this project about her!
+The theme/focus of this project is my favorite artist Kehlani. I started listening to music about 3 years ago, and Kehlani was the first artist that stuck. Her music has become such a huge part of my life, and I saw no better way to show that than by making this project about her!
 
 
-#### To complete this project, Genius and Twitter API were used to pull data about songs and tweets that people write about Kehlani. The Genius search was
-a lot easier than the Twitter, I simply had to search "Kehlani". For Twitter, I had to specify "kehlanimusic" because of some recent news about her personal life.
+To complete this project, Genius and Twitter API were used to pull data about songs and tweets that people write about Kehlani. The Genius search was a lot easier than the Twitter, I simply had to search "Kehlani". For Twitter, I had to specify "kehlanimusic" because of some recent news about her personal life.
 
 
 ####  Problems:
