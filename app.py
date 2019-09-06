@@ -33,10 +33,10 @@ def index():
     
     #Authorization for the Twitter API
     oauth = requests_oauthlib.OAuth1(
-    "qBkUI9Od70x3S08iyliKXt2o0", 
-    "kjPdoRemvjUFwM5GmnRvpqgZSrmsRl0NnkRJGE7OGotzUhWj9d ",
-    "1167117656073412608-vFF34UgaXtFhNDxuXhMceeTadWEL6H",
-    "Qw61OwavaJ3UTSeE20xqhkZ0qqP4r1CsGVoXFa0idtBfV"
+    "hrJ7PpRKfx0LdINabgtzhKQrp", 
+    "1lMujydtYAFuioUTc8oCEc4b3qagza1cxHQrJCsLbHxPnjiMlT",
+    "1167289280638726144-N9ByFNa5LHLi5YtX6cRpsholeK7tPK",
+    "evnEAQASuH2t27RIyCDQv2bW4ZGwsXlm4m545oOcKHwgn"
     )
 
     response = requests.get(twitt_url, auth=oauth)
