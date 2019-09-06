@@ -48,7 +48,7 @@ def index():
     
 
     return flask.render_template("index.html", 
-                                pic = coverart, 
+                                pic = pic, 
                                 song = song, 
                                 artist = artist, 
                                 kehlani_tweets = kehlani_tweets)
