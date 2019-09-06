@@ -20,13 +20,13 @@ def index():
     response = requests.get(url, headers=my_headers)
     json_body = response.json()
     
-    coverart = json_body["response"]["hits"][random_song]["result"]['header_image_url']
+    pic = json_body["response"]["hits"][random_song]["result"]['header_image_url']
     song = json_body["response"]["hits"][random_song]["result"]["full_title"]
     artist = json_body["response"]["hits"][random_song]["result"]['primary_artist']['name']
     
     
     #Twitter API to search for tweets
-    twitter_url = "https://api.twitter.com/1.1/search/tweets.json?q=kehlani"
+    twitt_url = "https://api.twitter.com/1.1/search/tweets.json?q=kehlani"
     
     #Retrieves a random tweet
     twitter_tweet = random.randint(0,14)
@@ -39,19 +39,19 @@ def index():
     "90rgA5HLFb4SvWSHEr3q3oRKOnWzPpg4NfSVleWzctQcV"
     )
 
-    response = requests.get(twitter_url, auth=oauth)
+    response = requests.get(twitt_url, auth=oauth)
     json_body = response.json()
     
 
-    tweets = json_body['statuses'][twitter_tweet]['text']
+    kehlani_tweets = json_body['statuses'][twitter_tweet]['text']
   
     
 
     return flask.render_template("index.html", 
-                                coverart = coverart, 
+                                pic = coverart, 
                                 song = song, 
                                 artist = artist, 
-                                tweets = tweets)
+                                kehlani_tweets = kehlani_tweets)
 
 
 app.run(
